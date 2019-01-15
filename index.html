@@ -27,8 +27,19 @@
           </div>
         </div>
       </div> <!--/container-->
-    </nav>
-    <!--/navbar -->
+    </nav> <!--/navbar -->
+    <div class="jumbotron jumbotron-fluid bg-info text-white"><!--jumbotron-->
+      <div class="container text-sm-center pt-5">
+        <h1 class="display-2">Full Stack Conf</h1>
+        <p class="lead">A one day conference about all things Javascript!</p>
+
+        <div class="btn-group" role="group" aria-label="Callout Buttons">
+          <button type="button" class="btn btn-primary btn-large">Register Now</button>
+          <a class="btn btn-secondary btn-light btn-large" href="#speakers">See Speakers</a>
+        </div>
+      </div>
+
+    </div><!--/jumbotron-->
     <div class="container pt-4">
       <div class="row"> <!--about-->
         <div class="col-md order-lg-2">
@@ -55,14 +66,78 @@
 		      </ul>
         </div>
       </div> <!--/about-->
-      <h1 class="display-4 text-center my-5 text-muted>Speakers</h1> <!--Speakers-->
+      <h1 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h1> <!--Speakers-->
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/vivianne.png" class="card-img-top" alt="Vivianne">
+              <div class="card-body">
+                <h5 class="card-title">Vivianne McDonald</h5>
+                <p class="card-text">Vivianne is a web developer and teacher. She is passionate about dealing scalable data driven web apps.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/nodestradamus.png" class="card-img-top" alt="Nodestradamus">
+              <div class="card-body">
+                <h5 class="card-title">Nodestradamus</h5>
+                <p class="card-text">Nodestradamus is visiting us on this plane of existence to lecure us on the importance of keeping JQuery alive at all costs.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/ecma.png" class="card-img-top" alt="ECMA">
+              <div class="card-body">
+                <h5 class="card-title">Erica Amadeus</h5>
+                <p class="card-text">Erica comes from a long line of coders dating back to the analog days of IBM. She's speaking on the value of code in the home.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/jay.png" class="card-img-top" alt="Jay">
+              <div class="card-body">
+                <h5 class="card-title">Jason Json</h5>
+                <p class="card-text">Jason is the inventor of Json and son of JStor. Buckle your seatbelts, it's time for references.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/json.png" class="card-img-top" alt="Vivianne">
+              <div class="card-body">
+                <h5 class="card-title">Json Jason</h5>
+                <p class="card-text">Json Jason is does exactly what Jason Json does, no relation. His lecture focuses on the lapsed security measures at Nakatomi Plaza.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+              <img src="img/robbie.png" class="card-img-top" alt="Robbie">
+              <div class="card-body">
+                <h5 class="card-title">Robbie Robot</h5>
+                <p class="card-text">Robbie is a fully fuctioning android here from the year 2087. He is here to witness our coming dystopia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
       <!--/Speakers-->
       <h1 class="display-4 text-center my-5 text-muted">Schedule<h1> <!--Schedule-->
 
       <!--/Schedule-->
+      <!--CalloutButton-->
+      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button>
+      <!--/CalloutButton-->
       <hr> <!--signup form-->
-			<div class="row py-4 text-muted h3">
+			<div class="row py-4 text-muted h4">
 				<div class="col-md col-xl-5">
 					<p><strong>About Treehouse</strong></p>
 					<p>Treehouse brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
@@ -78,6 +153,36 @@
 			  </div>
 			</div>
 			<hr> <!--signup form-->
+      <div class="row py-3 h4"> <!--footer-->
+        <div class="col-md-7">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tracks</a>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-outline-secondary">Other Confs</button>
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">CSS Conf</a>
+                  <a class="dropdown-item" href="#">Python Conf</a>
+                  <a class="dropdown-item" href="#">Java Conf</a>
+                  <a class="dropdown-item" href="#">Swift Conf</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-md-text md-right">
+          <small>&copy; 2017 Full Stack Conf &amp; Treehouse</small>
+        </div>
+      </div> <!--/footer-->
     </div> <!--.container -->
 
     <!-- Optional JavaScript -->
